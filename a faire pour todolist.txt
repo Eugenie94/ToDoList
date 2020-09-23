@@ -4,6 +4,7 @@ ajouter ce qu'on veut design ou fonctionnalité
 
 pourquoi la couleur de ma barre ne saffiche pas
 modifier le pop up aussi en css la centrer et la grossir en gros avec un smiley
+ma barre de progression ne s'affiche pas sur mobile
 
 
 Quand toutes les cases sont cochées (complétude 100%), le message « Félicitations ! » s’affiche pour féliciter l’utilisateur  
