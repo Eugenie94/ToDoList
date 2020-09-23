@@ -21,19 +21,18 @@ $(document).ready(function() {    /*permet d'augmenter ma progress barre lorsque
               value: percentage
           });
       $(".progressbar-label").text(percentage + "%");
+      if(percentage==100){setTimeout(function(){alert("félicitations");}, 1000);}
     }
+    
     
     countChecked();
     $(":checkbox").click(countChecked);
   });
 
-  if (checkbox == "")
-{
-alert("Félicitations !");
-}
-
-
-   /* window.alert("Félicitations"); */
-  
 
  
+
+
+
+
+   

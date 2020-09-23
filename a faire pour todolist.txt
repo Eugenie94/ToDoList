@@ -2,9 +2,12 @@ une fois fini heberger le site sur git etc etc
 le site doit etre responsive
 ajouter ce qu'on veut design ou fonctionnalité
 
-pourquoi la couleur de ma barre ne saffiche pas
+pourquoi la couleur de ma barre ne saffiche pas probleme de css !!!!
 modifier le pop up aussi en css la centrer et la grossir en gros avec un smiley
-ma barre de progression ne s'affiche pas sur mobile
+enlever les bug de la console
+pop up
+utiliser code formulaire piscine pour rajouter des trucs
+
 
 
 Quand toutes les cases sont cochées (complétude 100%), le message « Félicitations ! » s’affiche pour féliciter l’utilisateur  
