@@ -25,8 +25,8 @@ input[type="checkbox"] {
     font-size: 1.5em; 
 }
 
-.ui-progressbar-value {
-  background-color: red;
+.ui-progressbar-label {
+  
 }
 
 .progressbar-container {
@@ -42,9 +42,14 @@ border-radius: 12px;
 }
 
 .progressbar-label {
-  position: absolute;
-  top: 2px;
-  left: 45%;
-  z-index: 2;
+  text-align: center;
+  width: 1px;
+  height: 25px;
+  margin: 10px 0;
+  border-radius: 12px;
 }
 
+
+#mam{
+  background-color: red;
+}
