@@ -1,0 +1,50 @@
+body {
+    margin: 20px 50px; 
+    }
+
+    
+h1 {
+    font-size: 1.5em; 
+    }
+
+ul {
+    list-style-type: none;
+}
+
+.tâche {
+    letter-spacing: 0.5px;
+}
+
+input[type="checkbox"] { 
+  height: 20px; 
+  width: 20px; 
+  margin-right: 10px;
+}	
+
+.ready {
+    font-size: 1.5em; 
+}
+
+.ui-progressbar-value {
+    background: rgb(25, 36, 25); 
+} 
+
+.progressbar-container {
+  position: relative;
+  width: 350px; 
+}
+
+.progressbar-bar { 
+background-color: #ddd;
+height: 25px;
+margin: 10px 0;
+border-radius: 12px;
+}
+
+.progressbar-label {
+  position: absolute;
+  top: 2px;
+  left: 45%;
+  z-index: 2;
+}
+

@@ -1,0 +1,15 @@
+une fois fini heberger le site sur git etc etc
+le site doit etre responsive
+ajouter ce qu'on veut design ou fonctionnalité
+
+pourquoi la couleur de ma barre ne saffiche pas
+modifier le pop up aussi en css la centrer et la grossir en gros avec un smiley
+
+
+Quand toutes les cases sont cochées (complétude 100%), le message « Félicitations ! » s’affiche pour féliciter l’utilisateur  
+mettre couleur barre chargement et design site
+
+
+
+
+si je suis prise a l'entretien apprendre mon code le commenter et comprendre
