@@ -20,8 +20,8 @@ $(document).ready(function() {    /*permet d'augmenter ma progress barre lorsque
       $(".progressbar-bar").progressbar({
               value: percentage
           });
-      $(".progressbar-label").text(percentage + "%");
-      if(percentage==100){setTimeout(function(){alert("félicitations");}, 1000);}
+      $(".progressbar-label").text(percentage + "%"); 
+      if(percentage==100){setTimeout(function(){alert("félicitations");}, 1000);}  /* si le pourcentage arrive a 100% un pop up felicitation apparait au bout de 1s*/
     }
     
     
