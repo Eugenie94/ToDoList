@@ -1,18 +1,13 @@
-une fois fini heberger le site sur git etc etc
+
+si je veux red je met en parenthese le truc js 
 le site doit etre responsive
 ajouter ce qu'on veut design ou fonctionnalité
+modifier titre head
 
-pourquoi la couleur de ma barre ne saffiche pas probleme de css !!!!
 modifier le pop up aussi en css la centrer et la grossir en gros avec un smiley
-enlever les bug de la console
-pop up
 utiliser code formulaire piscine pour rajouter des trucs
-
-
-
-Quand toutes les cases sont cochées (complétude 100%), le message « Félicitations ! » s’affiche pour féliciter l’utilisateur  
-mettre couleur barre chargement et design site
-
+ et design site
+mettre petit logo ico en haut la
 
 
 

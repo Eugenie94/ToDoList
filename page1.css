@@ -1,11 +1,24 @@
 body {
     margin: 20px 50px; 
-    }
+    font-size: 12px;
+    font-family: sans-serif;
+    background-image: url("imagefond.jpg");
+    background-size: contain;
+    background-position: right; /*place la photo a droite */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    align-items: right;
+    padding-top: 20px;
 
+  }
+  
     
 h1 {
-    font-size: 1.5em; 
-    }
+  margin-top: -15px;
+  margin-bottom: 25px;
+  font-size: 22px; 
+
+  }
 
 ul { 
     list-style-type: none;   /*suppression puce*/
@@ -28,12 +41,12 @@ input[type="checkbox"] {
 
 .progressbar-container {         /*rectangle de la progress bar*/
   position: relative;
-  width: 350px; 
+  width: 280px; 
 }
 
 .progressbar-bar {           /*fond gris de la progress bar*/
 background-color: #ddd;
-height: 25px;
+height: 27px;
 margin: 10px 0;
 border-radius: 12px;
 }
@@ -41,12 +54,91 @@ border-radius: 12px;
 .progressbar-label {     /*pourcentage a l'interieur*/
   text-align: center;
   width: 1px;
-  height: 25px;
-  margin: 10px 0;
+  height: 27px;
   border-radius: 12px;
+  font-size: initial;
+  font-weight: bold;
 }
 
 
 #label{   /*couleur de la progression*/
-  background-color: red;
+  background-color: pink;
+}
+
+
+
+
+/* CSS POUR LE FORMULAIRE AU DESSUS DES TACHES */
+
+/* form error */
+
+label.error {
+  background: none !important;
+  position: absolute;
+  left: 280px;
+  color: red;
+  } 
+
+.error {
+  background: rgb(255, 100, 100) !important;
+  }
+
+  
+section {
+  width: 80%;
+  margin: auto;
+  }
+  
+label {
+  font-size: 14px;
+  width: 150px;
+  display: inline-block 150px;
+  }
+
+p {
+  text-align: left;
+  width: 150px;
+  }
+
+input:hover {
+  border-left: 2px solid black;
+  }
+
+.dotted {
+  background-color: blanchedalmond;
+  position: absolute !important;
+  width: 150px !important;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  }
+
+#submit {
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 55px;
+  border-radius: 5px;
+  width: 70px;
+  border:none;
+	padding:6px 0 6px 0;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background:#fff;
+	font:bold 13px Arial;
+	color:black;
+  }
+
+#reset {
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 70px;
+  border:none;
+	padding:6px 0 6px 0;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background:#fff;
+	font:bold 13px Arial;
+	color:black;
 }

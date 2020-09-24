@@ -2,28 +2,75 @@
 <html lang="fr">
 
 <head>
-    <title>Test de recrutement Développeur Web</title>
+    <title>My to do list</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="page1.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="page1.js" rel="stylesheet"></script>
-    
+    <link rel="icon" href="images.ico" />
+    <script src="../bonus/jquery.min.js"></script> <!-- jquery API -->
+    <script src="../bonus/jquery.validate.min.js"></script> <!-- validator API -->
+    <script type="text/javascript" src="page1.js" rel="stylesheet"></script><!-- main JS script, written in jquery.validate standards-->
+    <link href="../bonus/favicon.ico" rel="icon" type="image/x-icon" /> <!-- page icon -->
+
 </head>
 
 
 <body>
-    <h1>To do list</h1>
 
-    <div class="progressbar-container">    <!--progress barre container-->
-        <div id="bar"class="progressbar-bar">   <!--rectangle de la progresse barre-->
-        <div id="label"class="progressbar-label"></div>  <!-- 0%-->
+    <h1>Formulaire d'inscription</h1>
+    <form method="post" name="registration">
+    <div>
+        <label for="civilite">Civilité : </label><br>
+        <select name="Civilité" class="dotted">
+            <!-- 'select' used to choose between two options -->
+            <option value=" "></option>
+            <option value="M.">M.</option>
+            <option value="Mme.">Mme.</option>
+        </select>
     </div>
-      </div>
-      <div class ="ready"></div>
+    <br>
+    <div>
+        <br>
+        <label for="name">Nom :</label> <br>
+        <input type="text" id="name" class="dotted" name="name">
+        <!-- required // validated through JS, minimum 2 characters -->
+    </div>
+    <br>
+    <div> <br>
+        <label class="date">Date :</label> <br>
+        <input type="date" class="dotted" name="anniversaire" value="10-11-2019" min="01-01-1900" max="10-11-2019">
+        <!-- w3c validator (wrongfully) throws an error, polyfill not needed -->
+    </div>
+    <br>
+
+    
+    <br>
+    <div> <br>
+        <label for="telephone">Téléphone :</label><br> <!-- exact 10 numbers -->
+        <input type="tel" class="dotted" id="telephone" name="telephone">
+    </div>
+    <br>
+    <div>
+        <input type="submit" id="submit" value="Submit"><br>
+    </div>
+
+    <!--fin formulaire-->
+
+    <h1>To Do List</h1>
+
+    <div class="progressbar-container">
+        <!--progress barre container-->
+        <div id="bar" class="progressbar-bar">
+            <!--rectangle de la progresse barre-->
+            <div id="label" class="progressbar-label"></div> <!-- 0%-->
+        </div>
+    </div>
+    <div class="ready"></div>
+
 
     <form>
         <ul>
-            <li><input type="checkbox" id="tâches" name="tâches" >
+            <li><input type="checkbox" id="tâches" name="tâches">
                 <!--si on met tache entre li et input la checkbox sera placée apres la tache hors ici c est l'inverse-->
                 <label for="tâches" class="tâche">tâche 1</label></li>
 
@@ -45,18 +92,22 @@
             <li><input type="checkbox" id="tâches" name="tâches">
                 <label for="tâches" class="tâche">tâche 7</label></li>
         </ul>
-        <input type= "submit" value="Reset"> <!--bouton reset si on met valeur reset les pourcentages restent (pas besoin de JS uniquement HTML)-->
+        <input id="reset" type="submit" value="Reset">
+        <!--bouton reset si on met valeur reset les pourcentages restent (pas besoin de JS uniquement HTML)-->
     </form>
 
-    
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> <!-- indispensable pour que ma progress barre fonctionne lorsque l'on coche-->
-    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script> <!-- indispensable pour que ma progress barre fonctionne lorsque l'on coche-->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <!-- indispensable pour que ma progress barre fonctionne lorsque l'on coche-->
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    <!-- indispensable pour que ma progress barre fonctionne lorsque l'on coche-->
     <!-- <script src="/js/jquery.min.js"></script> -->
-    <script  src="page1.js"></script> <!--indispensable pour que ma progress barre fonctionne lorsque l'on coche-->
+    <script src="page1.js"></script>
+    <!--indispensable pour que ma progress barre fonctionne lorsque l'on coche-->
 
 
-
+</form>
 
 </body>
 
