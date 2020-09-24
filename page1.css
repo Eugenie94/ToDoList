@@ -12,61 +12,12 @@ body {
 
   }
   
-    
+  
 h1 {
   margin-top: -15px;
   margin-bottom: 25px;
   font-size: 22px; 
-
   }
-
-ul { 
-    list-style-type: none;   /*suppression puce*/
-}
-
-.tâche {
-    letter-spacing: 0.5px;
-}
-
-input[type="checkbox"] { 
-  height: 20px; 
-  width: 20px; 
-  margin-right: 10px;
-}	
-
-.ready {
-    font-size: 1.5em; 
-}
-
-
-.progressbar-container {         /*rectangle de la progress bar*/
-  position: relative;
-  width: 280px; 
-}
-
-.progressbar-bar {           /*fond gris de la progress bar*/
-background-color: #ddd;
-border: solid 2px;
-height: 27px;
-margin: 10px 0;
-border-radius: 12px;
-}
-
-.progressbar-label {     /*pourcentage a l'interieur*/
-  text-align: center;
-  width: 1px;
-  height: 27px;
-  border-radius: 12px;
-  font-size: initial;
-  font-weight: bold;
-}
-
-
-#label{   /*couleur de la progression*/
-  background-color: rgb(255, 237, 210);
-
-}
-
 
 
 /* CSS POUR LE FORMULAIRE AU DESSUS DES TACHES */
@@ -129,17 +80,73 @@ input:hover {
 	font:bold 13px Arial;
 	color:black;
   }
+        /*FIN PREMIER FORMULAIRE*/
 
+         /* CSS DEUXIEME FORMULAIRE */
+ul { 
+  list-style-type: none;   /*suppression puce*/
+  }
+
+  
+.tâche {
+  letter-spacing: 0.5px;
+  }
+    
+      
+input[type="checkbox"] { 
+  height: 20px; 
+  width: 20px; 
+  margin-right: 10px;
+  }	
+      
+      
+.ready {
+  font-size: 1.5em; 
+  }
+      
+      
+.progressbar-container {         /*rectangle de la progress bar*/
+  position: relative;
+  width: 280px; 
+  } 
+      
+      
+.progressbar-bar {           /*fond gris de la progress bar*/
+  background-color: #ddd;
+  border: solid 2px;
+  height: 27px;
+  margin: 10px 0;
+  border-radius: 12px;
+  }
+      
+      
+  
+.progressbar-label {     /*pourcentage a l'interieur*/
+  text-align: center;
+  width: 1px;
+  height: 27px;
+  border-radius: 12px;
+  font-size: initial;
+  font-weight: bold;
+  }
+      
+      
+#label{   /*couleur de la progression*/
+  background-color: rgb(255, 237, 210);
+  }
+      
 #reset {
   margin-left: 50px;
   margin-top: 20px;
   border-radius: 5px;
   width: 70px;
   border:none;
-	padding:6px 0 6px 0;
+  padding:6px 0 6px 0;
   border-radius:12px 12px 12px 12px;
-	box-shadow:3px 3px 12px #999;
-	background:#fff;
-	font:bold 13px Arial;
-	color:black;
-}
+  box-shadow:3px 3px 12px #999;
+  background:#fff;
+  font:bold 13px Arial;
+  color:black;
+  }
+  
+                 /* FIN CSS DEUXIEME FORMULAIRE*/      

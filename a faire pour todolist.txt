@@ -1,14 +1,11 @@
 
-si je veux red je met en parenthese le truc js 
-le site doit etre responsive
-ajouter ce qu'on veut design ou fonctionnalité
-modifier titre head
 
-modifier le pop up aussi en css la centrer et la grossir en gros avec un smiley
-utiliser code formulaire piscine pour rajouter des trucs
- et design site
-mettre petit logo ico en haut la
-
+voir je peux mettre le 0 au milieu
 
 
 si je suis prise a l'entretien apprendre mon code le commenter et comprendre
+
+
+
+
+
