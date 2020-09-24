@@ -7,8 +7,8 @@ h1 {
     font-size: 1.5em; 
     }
 
-ul {
-    list-style-type: none;
+ul { 
+    list-style-type: none;   /*suppression puce*/
 }
 
 .tâche {
@@ -26,19 +26,19 @@ input[type="checkbox"] {
 }
 
 
-.progressbar-container {
+.progressbar-container {         /*rectangle de la progress bar*/
   position: relative;
   width: 350px; 
 }
 
-.progressbar-bar { 
+.progressbar-bar {           /*fond gris de la progress bar*/
 background-color: #ddd;
 height: 25px;
 margin: 10px 0;
 border-radius: 12px;
 }
 
-.progressbar-label {
+.progressbar-label {     /*pourcentage a l'interieur*/
   text-align: center;
   width: 1px;
   height: 25px;
@@ -47,6 +47,6 @@ border-radius: 12px;
 }
 
 
-#mam{
+#label{   /*couleur de la progression*/
   background-color: red;
 }
