@@ -46,6 +46,7 @@ input[type="checkbox"] {
 
 .progressbar-bar {           /*fond gris de la progress bar*/
 background-color: #ddd;
+border: solid 2px;
 height: 27px;
 margin: 10px 0;
 border-radius: 12px;
@@ -62,9 +63,9 @@ border-radius: 12px;
 
 
 #label{   /*couleur de la progression*/
-  background-color: pink;
-}
+  background-color: rgb(255, 237, 210);
 
+}
 
 
 
@@ -80,7 +81,7 @@ label.error {
   } 
 
 .error {
-  background: rgb(255, 100, 100) !important;
+  background: rgb(252, 78, 78) !important;
   }
 
   
@@ -105,7 +106,7 @@ input:hover {
   }
 
 .dotted {
-  background-color: blanchedalmond;
+  background-color: rgb(255, 237, 210);
   position: absolute !important;
   width: 150px !important;
   border-left: 2px solid black;
@@ -122,7 +123,7 @@ input:hover {
   width: 70px;
   border:none;
 	padding:6px 0 6px 0;
-	border-radius:2px;
+	border-radius:12px 12px 12px 12px;
 	box-shadow:3px 3px 12px #999;
 	background:#fff;
 	font:bold 13px Arial;
@@ -136,7 +137,7 @@ input:hover {
   width: 70px;
   border:none;
 	padding:6px 0 6px 0;
-	border-radius:2px;
+  border-radius:12px 12px 12px 12px;
 	box-shadow:3px 3px 12px #999;
 	background:#fff;
 	font:bold 13px Arial;

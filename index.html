@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="page1.css" type="text/css" rel="stylesheet">
     <link rel="icon" href="images.ico" />
-    <script src="../bonus/jquery.min.js"></script> <!-- jquery API -->
-    <script src="../bonus/jquery.validate.min.js"></script> <!-- validator API -->
-    <script type="text/javascript" src="page1.js" rel="stylesheet"></script><!-- main JS script, written in jquery.validate standards-->
-    <link href="../bonus/favicon.ico" rel="icon" type="image/x-icon" /> <!-- page icon -->
+    <script src="./bonus/jquery.min.js"></script> <!-- jquery API -->
+    <script src="./bonus/jquery.validate.min.js"></script> <!-- validator API -->
+    <script src="./page1.js"></script> <!-- main JS script, written in jquery.validate standards-->
+
+
 
 </head>
 
@@ -18,9 +19,9 @@
 <body>
 
     <h1>Formulaire d'inscription</h1>
-    <form method="post" name="registration">
+    <form action="index.html" method="post" name="registration">
     <div>
-        <label for="civilite">Civilité : </label><br>
+        <label for="civilite"><b>Civilité : </b></label><br>
         <select name="Civilité" class="dotted">
             <!-- 'select' used to choose between two options -->
             <option value=" "></option>
@@ -29,16 +30,16 @@
         </select>
     </div>
     <br>
+    <br>
     <div>
-        <br>
-        <label for="name">Nom :</label> <br>
+        <label for="name"><b>Nom et Prénoms:</b></label> <br>
         <input type="text" id="name" class="dotted" name="name">
         <!-- required // validated through JS, minimum 2 characters -->
     </div>
     <br>
     <div> <br>
-        <label class="date">Date :</label> <br>
-        <input type="date" class="dotted" name="anniversaire" value="10-11-2019" min="01-01-1900" max="10-11-2019">
+        <label class="date"><b>Date :</b></label> <br>
+        <input type="date" class="dotted" name="anniversaire" min="1900-01-01" max="2020-09-24">
         <!-- w3c validator (wrongfully) throws an error, polyfill not needed -->
     </div>
     <br>
@@ -46,13 +47,15 @@
     
     <br>
     <div> <br>
-        <label for="telephone">Téléphone :</label><br> <!-- exact 10 numbers -->
+        <label for="telephone"><b>Téléphone :</b></label><br> <!-- exact 10 numbers -->
         <input type="tel" class="dotted" id="telephone" name="telephone">
     </div>
     <br>
     <div>
         <input type="submit" id="submit" value="Submit"><br>
     </div>
+
+    </form>
 
     <!--fin formulaire-->
 
@@ -72,25 +75,25 @@
         <ul>
             <li><input type="checkbox" id="tâches" name="tâches">
                 <!--si on met tache entre li et input la checkbox sera placée apres la tache hors ici c est l'inverse-->
-                <label for="tâches" class="tâche">tâche 1</label></li>
+                <label for="tâches" class="tâche"><b>tâche 1</label></li>
 
             <li><input type="checkbox" id="tâches" name="tâches">
-                <label for="tâches" class="tâche">tâche 2</label></li>
+                <label for="tâches" class="tâche"><b>tâche 2</b></label></li>
 
             <li><input type="checkbox" id="tâches" name="tâches">
-                <label for="tâches" class="tâche">tâche 3</label></li>
+                <label for="tâches" class="tâche"><b>tâche 3</b></label></li>
 
             <li><input type="checkbox" id="tâches" name="tâches">
-                <label for="tâches" class="tâche">tâche 4</label></li>
+                <label for="tâches" class="tâche"><b>tâche 4</b></label></li>
 
             <li><input type="checkbox" id="tâches" name="tâches">
-                <label for="tâches" class="tâche">tâche 5</label></li>
+                <label for="tâches" class="tâche"><b>tâche 5</b></label></li>
 
             <li><input type="checkbox" id="tâches" name="tâches">
-                <label for="tâches" class="tâche">tâche 6</label></li>
+                <label for="tâches" class="tâche"><b>tâche 6</b></label></li>
 
             <li><input type="checkbox" id="tâches" name="tâches">
-                <label for="tâches" class="tâche">tâche 7</label></li>
+                <label for="tâches" class="tâche"><b>tâche 7</b></label></li>
         </ul>
         <input id="reset" type="submit" value="Reset">
         <!--bouton reset si on met valeur reset les pourcentages restent (pas besoin de JS uniquement HTML)-->
@@ -102,13 +105,8 @@
     <!-- indispensable pour que ma progress barre fonctionne lorsque l'on coche-->
     <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
     <!-- indispensable pour que ma progress barre fonctionne lorsque l'on coche-->
-    <!-- <script src="/js/jquery.min.js"></script> -->
-    <script src="page1.js"></script>
-    <!--indispensable pour que ma progress barre fonctionne lorsque l'on coche-->
-
-
-</form>
-
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <!--indispensable pour que le formulaire js fonctionne-->
 </body>
 
 </html>
