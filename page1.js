@@ -94,7 +94,6 @@ $(function () {
 
     },
     submitHandler: function(form) {
-    getElementById(loginform); {
       form.submit();
     }
   });
