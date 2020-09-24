@@ -93,7 +93,7 @@ $(function () {
       },
 
     },
-    submitHandler: function (form) {
+    submitHandler: function(form) {
       form.submit();
     }
   });
