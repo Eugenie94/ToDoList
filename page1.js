@@ -1,6 +1,6 @@
 /* SHILF ALF F indent JS */
 
-$(document).ready(function () {    /*permet d'augmenter ma progress barre lorsque l'on coche */
+$(document).ready(function() {    /*permet d'augmenter ma progress barre lorsque l'on coche */
 
   // get box count
   var count = 0;
