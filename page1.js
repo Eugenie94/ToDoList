@@ -21,14 +21,14 @@ $(document).ready(function() {    /*permet d'augmenter ma progress barre lorsque
               value: percentage
           });
       $(".progressbar-label").text(percentage + "%"); 
-      var elem = document.getElementById("mam");
-      elem.style.width = percentage + "%";
+      var elem = document.getElementById("mam");    /*permet que la couleur de progress augmente avec la progression*/
+      elem.style.width = percentage + "%";    /*aussi*/
 
-          // if(percentage<25){
+          // if(percentage<25){              ce qui permet d'avoir un trio de couleur au fur et a mesure que le pourcentage augmente
           //   elem.style.backgroundColor = "red"
           // }else{
           //   if(percentage<50){
-          //     elem.style.backgroundColor = "orange"
+          //     elem.style.backgroundColor = "range"
           //   }else{
           //     elem.style.backgroundColor = "green"
           //   }
