@@ -11,7 +11,7 @@ body {
     padding-top: 20px;
   }
   
-  @media screen and (max-width: 800px) {  /*css taille barre orange selon format */
+  @media screen and (min-width: 800px) {  /*css taille barre orange selon format */
     body {
       background-image: url("./imagefond.JPG");
       background-size: cover;
