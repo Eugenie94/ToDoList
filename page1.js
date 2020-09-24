@@ -93,7 +93,7 @@ $(function () {
       },
 
     },
-    submitHandler: function getElementById(loginform) {
+    submitHandler: function (form) {
       form.submit();
     }
   });
