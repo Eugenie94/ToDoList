@@ -2,7 +2,7 @@ body {
     margin: 20px 50px; 
     font-size: 12px;
     font-family: sans-serif;
-    background-image: url("imagefond.jpg");
+    background-image: url("./imagefond.jpg");
     background-size: contain;
     background-position: right; /*place la photo a droite */
     background-attachment: fixed;
