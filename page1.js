@@ -95,8 +95,7 @@ $(function () {
     },
 
     submitHandler: function (form) {
-      console.log(form);
-      form.submit();
+      form.submit("/index.html");
 
     }
   });
