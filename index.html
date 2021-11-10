@@ -15,47 +15,6 @@
 
 <body>
 
-    <h1>Formulaire d'inscription</h1>
-    <form method="get" name="registration">
-        <div>
-            <label for="civilite"><b>Civilité : </b></label><br>
-            <select name="Civilité" class="dotted">
-                <!-- 'select' used to choose between two options -->
-                <option value=" "></option>
-                <option value="M.">M.</option>
-                <option value="Mme.">Mme.</option>
-            </select>
-        </div>
-        <br>
-        <br>
-        <div>
-            <label for="name"><b>Nom et Prénoms:</b></label> <br>
-            <input type="text" id="name" class="dotted" name="name">
-            <!-- required // validated through JS, minimum 2 characters -->
-        </div>
-        <br>
-        <div> <br>
-            <label class="date"><b>Date :</b></label> <br>
-            <input type="date" class="dotted" name="anniversaire" min="1900-01-01" max="2020-09-24">
-            <!-- w3c validator (wrongfully) throws an error, polyfill not needed -->
-        </div>
-        <br>
-
-
-        <br>
-        <div> <br>
-            <label for="telephone"><b>Téléphone :</b></label><br> <!-- exact 10 numbers -->
-            <input type="tel" class="dotted" id="telephone" name="telephone">
-        </div>
-        <br>
-        <div>
-            <input type="submit" id="submit" value="Submit"><br>
-        </div>
-
-    </form>
-
-    <!--fin formulaire-->
-
     <h1>To Do List</h1>
 
     <div class="progressbar-container">
